@@ -1,0 +1,83 @@
+[colors]
+ansi = [
+    "#102010",
+    "#e75a7c",
+    "#8fb573",
+    "#dbb671",
+    "#57a5e5",
+    "#aaaaff",
+    "#70c2be",
+    "#3a3d41",
+]
+background = "#001000"
+brights = [
+    "#5b5e5a",
+    "#e75a7c",
+    "#8fb573",
+    "#dbb671",
+    "#57a5e5",
+    "#aaaaff",
+    "#70c2be",
+    "#fff8f0",
+]
+cursor_bg = "#fff8f0"
+cursor_border = "#fff8f0"
+cursor_fg = "#0f0800"
+foreground = "#3a3d41"
+scrollbar_thumb = "#102010"
+selection_bg = "#5b5e5a"
+selection_fg = "#3a3d41"
+split = "#838781"
+compose_cursor = "#ff9966"
+visual_bell = "#003000"
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = "#102010"
+inactive_tab_edge = "#004000"
+
+[colors.tab_bar.active_tab]
+bg_color = "#3a3d41"
+fg_color = "#030a03"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#004000"
+fg_color = "#5b5e5a"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#002000"
+fg_color = "#838781"
+intensity = "Normal"
+italic = true
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab]
+bg_color = "#5b5e5a"
+fg_color = "#3a3d41"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#838781"
+fg_color = "#3a3d41"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[metadata]
+name = 'Schwarzwald'
+author = 'Riley Bruins'
+origin_url = "https://github.com/yelircaasi/schwarzwald.nvim"
